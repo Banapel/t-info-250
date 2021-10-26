@@ -15,3 +15,12 @@ SEA-SW1(config)#
 %LINK-5-CHANGED: Interface GigabitEthernet0/1, changed state to up
 
 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+EA-SW1(config-if)#no shut
+
+SEA-SW1(config-if)#
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+
+SEA-SW1(config-if)#exit
+SEA-SW1(config)#
